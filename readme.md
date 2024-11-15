@@ -30,6 +30,16 @@ pip install -r requirements.txt
 
 Then install zenchain node.
 
+```bash
+docker pull ghcr.io/zenchain-protocol/zenchain-testnet:latest
+```
+
+Run it
+
+```bash
+docker compose up  -d
+```
+
 #### Step 3
 
 Set keys
