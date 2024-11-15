@@ -161,8 +161,8 @@ def main():
             if is_bonded:
                 print("You are bonded.")
                 total_stake, active_stake = check_stake(MY_ADDRESS)
-                print(f"Your stake balance: Total Stake = {
-                      total_stake/10**18} ZCX, Active Stake = {active_stake/10**18} ZCX")
+                
+                print(f"Your stake balance: Total Stake = { total_stake/10**18} ZCX, Active Stake = {active_stake/10**18} ZCX")
             else:
                 print("You are not bonded.")
         elif choice == '2':
