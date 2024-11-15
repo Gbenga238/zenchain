@@ -31,7 +31,7 @@ Then install zenchain node.
 Set keys
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "author_rotateKeys", "params":[]}' http://localhost:994gv4
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "author_rotateKeys", "params":[]}' http://localhost:9944
 ```
 
 #### Step 4
