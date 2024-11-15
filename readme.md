@@ -2,6 +2,10 @@
 
 First fill in the .env file.
 
+```bash
+cp .env.sample .env && nano .env
+```
+
 ### Get ready
 
 #### Step 1
