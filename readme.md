@@ -1,6 +1,8 @@
 # Steps
 
-First complete all the todo in all the files.
+First fill in the .env file.
+
+### Get ready
 
 #### Step 1
 
@@ -10,9 +12,19 @@ Run
 chmod +x setup.sh
 ```
 
+```bash
+./setup.sh
+```
+
 #### Step 2
 
-Install zenchain
+Install dependencies.
+
+```bash
+pip install -r requirements.txt
+```
+
+Then install zenchain node.
 
 #### Step 3
 
