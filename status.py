@@ -1,7 +1,7 @@
 import subprocess
 from datetime import datetime, timedelta
 
-
+CONTAINER_NAME = "zenchain"
 
 class ValidatorMonitor:
     def __init__(self):
