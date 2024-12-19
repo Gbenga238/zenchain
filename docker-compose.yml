@@ -4,6 +4,7 @@ services:
     image: ghcr.io/zenchain-protocol/zenchain-testnet:latest
     platform: linux/amd64
     container_name: zenchain
+    restart: always
     user: "root"
     ports:
       - "9944:9944"
