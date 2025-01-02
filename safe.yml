@@ -1,7 +1,7 @@
 version: '3'
 services:
   zenchain:
-    image: ghcr.io/zenchain-protocol/zenchain-testnet:latest
+    image: ghcr.io/zenchain-protocol/zenchain-testnet:v1.1.2
     platform: linux/amd64
     container_name: zenchain
     restart: always
