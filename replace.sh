@@ -22,9 +22,9 @@ fi
 
 # Create backup of existing docker-compose.yml if it exists
 if [ -f "docker-compose.yml" ]; then
-    backup_file="docker-compose.yml.backup.$(date +%Y%m%d_%H%M%S)"
-    cp docker-compose.yml "$backup_file"
-    echo "Created backup: $backup_file"
+    # backup_file="docker-compose.yml.backup.$(date +%Y%m%d_%H%M%S)"
+    # cp docker-compose.yml "$backup_file"
+    # echo "Created backup: $backup_file"
 fi
 
 # Copy the content of the source file to docker-compose.yml
