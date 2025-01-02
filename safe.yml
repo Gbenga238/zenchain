@@ -1,0 +1,20 @@
+version: '3'
+services:
+  zenchain:
+    image: ghcr.io/zenchain-protocol/zenchain-testnet:latest
+    platform: linux/amd64
+    container_name: zenchain
+    restart: always
+    user: "root"
+    ports:
+      - "9944:9944"
+      - "30333:30333"
+    volumes:
+      - ./chain-data:/chain-data
+    command:
+      - "./usr/bin/zenchain-node"
+      - "--base-path=/chain-data"
+      - "--validator"
+      - "--name=YOUR_NAME"
+      - "--bootnodes=/dns4/node-7242611732906999808-0.p2p.onfinality.io/tcp/26266/p2p/12D3KooWLAH3GejHmmchsvJpwDYkvacrBeAQbJrip5oZSymx5yrE"
+      - "--chain=zenchain_testnet"
